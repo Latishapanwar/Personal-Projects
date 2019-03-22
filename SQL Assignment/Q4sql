@@ -1,0 +1,96 @@
+SET SERVEROUTPUT ON
+
+-------------------------------------------CONFUSION MATRIX----------------------------------------
+CREATE TABLE LABELLED_ALLDATA AS
+SELECT FULL.* FROM
+(SELECT AVIEW.*, PROB.DTREE_PREDICTED_VALUE, PROB.DTREE_PROBABILITY, PROB.NBAYES_PREDICTED_VALUE, PROB.NBAYES_PROBABILITY FROM ANALYTICAL_VIEW AVIEW,
+(SELECT DTREE.CUST_ID, DTREE.PREDICTED_VALUE AS DTREE_PREDICTED_VALUE, DTREE.PROBABILITY AS DTREE_PROBABILITY, NBAYES.PREDICTED_VALUE AS NBAYES_PREDICTED_VALUE, NBAYES.PROBABILITY AS NBAYES_PROBABILITY
+FROM DTREE_TEST_RESULTS DTREE 
+JOIN NBAYES_TEST_RESULTS NBAYES 
+ON DTREE.CUST_ID = NBAYES.CUST_ID) PROB
+WHERE AVIEW.CUST_ID = PROB.CUST_ID
+ORDER BY DBMS_RANDOM.VALUE) FULL;
+
+SELECT * FROM LABELLED_ALLDATA;
+
+declare
+nrow number;
+accuracy Number;
+precision Number;
+recall Number;
+True_Negative number;
+True_Positive number;
+False_Positive number;
+False_Negative number;
+BEGIN
+    select count(*) into nrow from LABELLED_ALLDATA;
+    True_Negative :=0;
+    True_Positive :=0;
+    False_Positive:=0;
+    False_Negative:=0;
+    for i in 1..nrow loop
+            if (affinity_card=0 and dtree_predicted_value=0)
+            then 
+            True_Negative:=True_Negative+1;
+            end if;
+        end loop;
+DBMS_OUTPUT.PUT_LINE('**** Number of true Negatives ****: ' || True_Negative);
+
+for i in 1..nrow loop
+            if (affinity_card=1 and dtree_predicted_value=1)
+            then 
+            True_Positive:=True_Positive+1;
+            end if;
+        end loop;
+DBMS_OUTPUT.PUT_LINE('**** Number of true Positives ****: ' || True_Positive);
+
+for i in 1..nrow loop
+            if (affinity_card=0 and dtree_predicted_value=1)
+            then 
+            False_Positive:=False_Positive+1;
+            end if;
+        end loop;
+DBMS_OUTPUT.PUT_LINE('**** Number of false Positives ****: ' || False_Positive);
+
+for i in 1..nrow loop
+            if (affinity_card=1 and dtree_predicted_value=0)
+            then 
+            False_Negative:=False_Negative+1;
+            end if;
+        end loop;
+DBMS_OUTPUT.PUT_LINE('**** Number of false Negatives ****: ' || False_Negative);
+
+for i in 1..nrow loop
+            if (affinity_card=0 and nbayes_predicted_value=0)
+            then 
+            True_Negative:=True_Negative+1;
+            end if;
+        end loop;
+DBMS_OUTPUT.PUT_LINE('**** Number of true Negatives ****: ' || True_Negative);
+
+for i in 1..nrow loop
+            if (affinity_card=1 and nbayes_predicted_value=1)
+            then 
+            True_Positive:=True_Positive+1;
+            end if;
+        end loop;
+DBMS_OUTPUT.PUT_LINE('**** Number of true Positives ****: ' || True_Positive);
+
+for i in 1..nrow loop
+            if (affinity_card=0 and dtree_predicted_value=1)
+            then 
+            False_Positive:=False_Positive+1;
+            end if;
+        end loop;
+DBMS_OUTPUT.PUT_LINE('**** Number of false Positives ****: ' || False_Positive);
+
+for i in 1..nrow loop
+            if (affinity_card=1 and nbayes_predicted_value=0)
+            then 
+            False_Negative:=False_Negative+1;
+            end if;
+        end loop;
+DBMS_OUTPUT.PUT_LINE('**** Number of false Negatives ****: ' || False_Negative);
+
+End;
+/

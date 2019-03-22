@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B03F38B3-67D3-1DAF-924B-55A9AA095D1A" name="Depot">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>49BCD412-F579-A705-8837-CF660DBE1234</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Depot_Code" id="6C942BE0-1F70-697D-7E3C-A89424968B8B">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>E9D81EA0-6FB8-D607-F488-66715D36AB67</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="DC86D98C-1D82-9FE7-8B92-8E77740514D8">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>C45968C2-5362-AC78-2F2B-6B7DB97185EC</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type_of_Depot" id="6967A2CE-2027-3827-6677-A137715AEA5A">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<comment>LOC - Local Depot&lt;br/&gt;NAT - National Depot</comment>
+<commentInRDBMS>LOC - Local Depot&lt;br/&gt;NAT - National Depot</commentInRDBMS>
+<generatorID>6E3E60A8-B78E-B564-3E0F-557C518417EF</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telephone_No" id="569F48C7-45DB-A23E-42D5-64BD38F33D03">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>ADE1462F-BF99-B957-1C27-32BA80D7069C</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Additional_Telephone_No" id="54351B8E-9C34-C705-6EC7-EEA408BF9CC3">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>5C20914A-4617-7B1C-5348-2C8F16459F57</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Manager_Staff_No" id="CC2DFC93-2D23-CA95-E0DB-E9EA52B5FFCF">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>9AB02202-DFF2-3E10-51BC-D420D80BC5F5</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8F13A171-DC3D-DB51-20E3-4645F4D9D4E1" referredColumn="47D23E23-414C-8873-2B0D-6EAD4CEA4722"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="897B88DE-BAF2-5F85-2C94-36DD52303404" name="Depot_PK">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>50A1EDA3-5889-9045-9967-35D8A3B671C9</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C942BE0-1F70-697D-7E3C-A89424968B8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="35514832-175F-EA71-50DB-4A043D716C92" name="Depot_PhoneNo_AddnlPhoneNo_UN">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 16:09:35 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="569F48C7-45DB-A23E-42D5-64BD38F33D03"/>
+<colUsage columnID="54351B8E-9C34-C705-6EC7-EEA408BF9CC3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CE920853-22A4-46D3-FA31-F53502F18D70" name="Depot__IDX">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 15:08:50 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6C942BE0-1F70-697D-7E3C-A89424968B8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="568EFDEA-6BB4-B598-59C2-415A6FCC33FC" name="Depot__IDXv1">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 15:26:56 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A62C539C-33E1-41A7-F1B2-701E153FE9CE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CC2DFC93-2D23-CA95-E0DB-E9EA52B5FFCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3A69F2D-7237-FEAD-204F-9A8FE49D5E96" name="Depot_Manager_FK">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>A62C539C-33E1-41A7-F1B2-701E153FE9CE</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC2DFC93-2D23-CA95-E0DB-E9EA52B5FFCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

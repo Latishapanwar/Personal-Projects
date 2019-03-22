@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Products Supplier FK" directorySegmentName="seg_0" id="91F15CE5-C5A3-11FE-DCBE-67A086EEEC1F">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 13:47:09 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<sourcePk>3DF87426-8AFF-4E72-4217-48B8C92CCE6E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7722E875-67EE-9C94-0809-DEC67ABA58CE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2C0BC529-138C-439F-FF65-3C3FA0373CFB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

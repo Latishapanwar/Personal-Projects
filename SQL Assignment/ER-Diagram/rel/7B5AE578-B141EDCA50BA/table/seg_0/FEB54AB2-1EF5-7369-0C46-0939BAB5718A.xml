@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEB54AB2-1EF5-7369-0C46-0939BAB5718A" name="Manager">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>C12D4352-5063-CB0A-D28B-86B90A02FDB0</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Staff_No" id="47D23E23-414C-8873-2B0D-6EAD4CEA4722">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>D4633215-CC05-5B18-0D64-6132B527F81C</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="60FC4837-DB67-CF50-16D3-C6BDEB7DC2E0">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>BB53E4FD-0C28-274E-2EA3-9238B6BEC83F</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Office_Contact_No" id="95D6896C-55DC-9EC5-F1A1-7297669D7B20">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>7B728A4F-7330-86FE-BD91-43D034935166</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Home_Contact_No" id="81BDA496-C372-D38E-5CFF-41632EA60577">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>0EDF843B-15D5-6242-BC7C-1E3FA3722629</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="56B86CC6-F249-73EC-1957-023DD7E8EAF1" name="Manager_PK">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>3FBA9702-0E3D-BD31-26EB-ABF48995A6E9</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47D23E23-414C-8873-2B0D-6EAD4CEA4722"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4AEA619-B8C5-FC83-48C0-3343D931020D" name="Manager_Home_Contact_No_UN">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 16:07:47 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81BDA496-C372-D38E-5CFF-41632EA60577"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="506800D8-19BE-0C30-2C91-E4E591FAE106" name="Manager__IDX">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 15:07:20 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="47D23E23-414C-8873-2B0D-6EAD4CEA4722"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00B862AC-50BA-E568-D085-8CB703EC9681" name="Manager__IDXv1">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 15:07:20 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60FC4837-DB67-CF50-16D3-C6BDEB7DC2E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Depot Manager FK" directorySegmentName="seg_0" id="A62C539C-33E1-41A7-F1B2-701E153FE9CE">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 13:21:39 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<sourcePk>3FBA9702-0E3D-BD31-26EB-ABF48995A6E9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>C12D4352-5063-CB0A-D28B-86B90A02FDB0</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>49BCD412-F579-A705-8837-CF660DBE1234</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

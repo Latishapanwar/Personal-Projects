@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="8E0E323C-0269-FDB0-5897-C5733863445A">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-03 11:13:12 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

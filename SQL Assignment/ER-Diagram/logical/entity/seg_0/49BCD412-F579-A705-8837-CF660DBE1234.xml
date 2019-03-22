@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="49BCD412-F579-A705-8837-CF660DBE1234" name="Depot">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-04 21:43:18 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Depot Code" id="E9D81EA0-6FB8-D607-F488-66715D36AB67">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-04 21:43:35 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="C45968C2-5362-AC78-2F2B-6B7DB97185EC">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-04 21:44:17 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type of Depot" id="6E3E60A8-B78E-B564-3E0F-557C518417EF">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 13:08:32 UTC</createdTime>
+<comment>LOC - Local Depot&lt;br/&gt;NAT - National Depot</comment>
+<commentInRDBMS>LOC - Local Depot&lt;br/&gt;NAT - National Depot</commentInRDBMS>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 CHAR</dataTypeSize>
+<ownDataTypeParameters>6 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telephone No" id="ADE1462F-BF99-B957-1C27-32BA80D7069C">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-04 21:44:57 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Additional Telephone No" id="5C20914A-4617-7B1C-5348-2C8F16459F57">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 13:07:52 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Manager Staff No" id="9AB02202-DFF2-3E10-51BC-D420D80BC5F5">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 13:21:39 UTC</createdTime>
+<generatorID>A62C539C-33E1-41A7-F1B2-701E153FE9CE</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<referedAttribute>D4633215-CC05-5B18-0D64-6132B527F81C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50A1EDA3-5889-9045-9967-35D8A3B671C9" name="Depot PK">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-04 21:44:33 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>E9D81EA0-6FB8-D607-F488-66715D36AB67</newElementsIDs>
+<usedAttributes>
+<attributeRef>E9D81EA0-6FB8-D607-F488-66715D36AB67</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="F0439B61-482C-E4E2-93F4-409E4E7F2FAE" name="Depot  UN">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-07 08:35:35 UTC</createdTime>
+<generatorID>35514832-175F-EA71-50DB-4A043D716C92</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>ADE1462F-BF99-B957-1C27-32BA80D7069C</attributeRef>
+<attributeRef>5C20914A-4617-7B1C-5348-2C8F16459F57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8F13A171-DC3D-DB51-20E3-4645F4D9D4E1" containerWithKeyObject="B03F38B3-67D3-1DAF-924B-55A9AA095D1A" localFKIndex="D3A69F2D-7237-FEAD-204F-9A8FE49D5E96" name="Depot_Manager_FK">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>A62C539C-33E1-41A7-F1B2-701E153FE9CE</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<referredTableLongName>Manager</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FEB54AB2-1EF5-7369-0C46-0939BAB5718A</referredTableID>
+<keyObject>56B86CC6-F249-73EC-1957-023DD7E8EAF1</keyObject>
+<referredKeyID>56B86CC6-F249-73EC-1957-023DD7E8EAF1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Staff_No_</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

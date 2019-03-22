@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B27CFD5-03D4-FF9D-AECE-196E3E48A160" name="Vehicles">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>4F2DA134-3ACB-5D02-9B05-ED70C9BF60E4</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Registration_No" id="1368A84C-A355-05DC-727D-B807F32DD690">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>022B0716-5BF8-C1E4-6F6E-63FDC432B15D</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Model" id="295A562D-1A71-11A2-EADF-A9A2F4AB59F4">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>73907E67-EAD9-4EB3-F449-993C2D45E271</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Make" id="8C0A3ACE-5FA9-4138-1E23-DF7DD4F55FF1">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>DC4FDCC9-235D-4978-EE00-ABDAFB8C182A</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Operated_From" id="978139F2-A47E-90CA-DD55-E49089131C1A">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>70657299-80DF-3CE6-D560-920F3260BF0D</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22C33669-C35B-0FBF-D42C-98399FFF4763" referredColumn="6C942BE0-1F70-697D-7E3C-A89424968B8B"/>
+</associations>
+</Column>
+<Column name="Maintained_At" id="AF883F90-0738-0B0A-7208-F7F56F91786F">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-07 08:38:34 UTC</createdTime>
+<generatorID>689A1DE8-CEA7-6B66-68FA-7F988A131051</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FBF94C5-0E99-184B-2BF8-721C40A02A50" referredColumn="6C942BE0-1F70-697D-7E3C-A89424968B8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1DB9772F-0E97-CF36-737C-5D82209866CB" name="Vehicles_PK">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>D8FF3B58-C7DB-911B-5C3E-503516E78741</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1368A84C-A355-05DC-727D-B807F32DD690"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="08DB8EC8-0726-E7AA-BBF8-26837D6EC8E1" name="Vehicles__IDX">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 15:13:39 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1368A84C-A355-05DC-727D-B807F32DD690"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB9DE87D-3392-4E77-40A3-FE891D2D40E5" name="Vehicles_Depot_FK">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:18 UTC</createdTime>
+<generatorID>25625A92-7795-0BE5-DF3E-8B9BF9042E8A</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="978139F2-A47E-90CA-DD55-E49089131C1A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E105F4A5-FF4F-BDC2-7638-7E4C5605FCF3" name="Vehicles_Depot_FKv2">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-07 08:38:34 UTC</createdTime>
+<generatorID>CA31CAC4-431B-E15B-5E47-E82E3E702F0E</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF883F90-0738-0B0A-7208-F7F56F91786F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

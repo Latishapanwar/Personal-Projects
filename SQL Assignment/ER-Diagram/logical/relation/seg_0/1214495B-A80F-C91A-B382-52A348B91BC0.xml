@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Stock Depot FK" directorySegmentName="seg_0" id="1214495B-A80F-C91A-B382-52A348B91BC0">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 13:39:31 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<sourcePk>50A1EDA3-5889-9045-9967-35D8A3B671C9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>49BCD412-F579-A705-8837-CF660DBE1234</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>767497E4-0005-76C4-A115-F8ADD7674060</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

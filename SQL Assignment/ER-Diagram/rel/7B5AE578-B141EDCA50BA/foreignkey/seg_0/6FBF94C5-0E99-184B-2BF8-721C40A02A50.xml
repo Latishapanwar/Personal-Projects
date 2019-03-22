@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6FBF94C5-0E99-184B-2BF8-721C40A02A50" containerWithKeyObject="5B27CFD5-03D4-FF9D-AECE-196E3E48A160" localFKIndex="E105F4A5-FF4F-BDC2-7638-7E4C5605FCF3" name="Vehicles_Depot_FKv2">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-07 08:38:34 UTC</createdTime>
+<generatorID>CA31CAC4-431B-E15B-5E47-E82E3E702F0E</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<referredTableLongName>Depot</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B03F38B3-67D3-1DAF-924B-55A9AA095D1A</referredTableID>
+<keyObject>897B88DE-BAF2-5F85-2C94-36DD52303404</keyObject>
+<referredKeyID>897B88DE-BAF2-5F85-2C94-36DD52303404</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Depot_Code</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

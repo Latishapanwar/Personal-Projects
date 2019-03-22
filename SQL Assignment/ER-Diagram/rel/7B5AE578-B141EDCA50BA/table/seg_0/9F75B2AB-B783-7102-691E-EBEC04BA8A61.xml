@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9F75B2AB-B783-7102-691E-EBEC04BA8A61" name="Supplier">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>7722E875-67EE-9C94-0809-DEC67ABA58CE</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Supplier_Code" id="DE510DDB-4D11-163F-E777-EF09A78A59E4">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>F8C9EEC1-545E-274D-531D-4C73FD4A2C15</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="91E893E4-874F-6E98-A0C3-A5BDC46FD4F1">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>733A5926-8E69-5E94-FB79-1FBE43AAB579</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telephone_No" id="7ABA584D-DE1A-B478-07C4-0B8D71AFAC52">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>58458C85-E7B0-E0E5-81EB-D2E151AD6EC7</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 CHAR</dataTypeSize>
+<ownDataTypeParameters>14 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FFBB29AB-1ED4-E9A5-1867-A68D3CBAECFB" name="Supplier_PK">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>3DF87426-8AFF-4E72-4217-48B8C92CCE6E</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE510DDB-4D11-163F-E777-EF09A78A59E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B5C15DA1-4CD0-0C17-A6DD-CBE78BC278F5" name="Supplier_Telephone_No_UN">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 16:10:01 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7ABA584D-DE1A-B478-07C4-0B8D71AFAC52"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CB67493-F006-BD54-2DE7-D1D15A6177B8" name="Supplier__IDX">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 15:14:50 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE510DDB-4D11-163F-E777-EF09A78A59E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

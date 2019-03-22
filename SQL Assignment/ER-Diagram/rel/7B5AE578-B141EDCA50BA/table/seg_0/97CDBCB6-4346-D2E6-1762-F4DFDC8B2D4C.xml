@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97CDBCB6-4346-D2E6-1762-F4DFDC8B2D4C" name="Stock">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>767497E4-0005-76C4-A115-F8ADD7674060</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Number_of_items" id="CBFD6106-0116-941E-D251-F4E826001369">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>695F0E13-FFAB-442C-C44B-4705339A9179</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Depot_Depot_Code" id="2AF41B3F-3C85-D423-81C0-398F3276D769">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>37FA5452-E9C9-7881-1929-52E70F58C33A</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3199B488-8A12-A967-AAD5-E40F44C4104F" referredColumn="6C942BE0-1F70-697D-7E3C-A89424968B8B"/>
+</associations>
+</Column>
+<Column name="Products_Product_Code" id="FEFEB0C7-448C-4DB6-E035-C8B4CFE74CDC">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>B12CDD49-D625-10FE-6823-6F21A65DA46F</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E02D25D-E3E5-51E3-11C3-903226D7F725" referredColumn="F56D65FC-A5D2-C49E-186C-E37711678DD9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0024AF5-4252-03BE-A699-65F4435802B4" name="Stock_PK">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:17 UTC</createdTime>
+<generatorID>7C3D6C66-C764-107C-AABF-9AC04B5A7211</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF41B3F-3C85-D423-81C0-398F3276D769"/>
+<colUsage columnID="FEFEB0C7-448C-4DB6-E035-C8B4CFE74CDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBD981B7-89F4-3464-83C3-AB6C16516CC5" name="Stock_Products_FK">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:18 UTC</createdTime>
+<generatorID>D08D93A8-3CCA-C9C7-728D-ED77C6B68BDC</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEFEB0C7-448C-4DB6-E035-C8B4CFE74CDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FEA1562-9D59-3CEE-5EB6-16765FC92B21" name="Stock_Depot_FK">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 14:03:18 UTC</createdTime>
+<generatorID>1214495B-A80F-C91A-B382-52A348B91BC0</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AF41B3F-3C85-D423-81C0-398F3276D769"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

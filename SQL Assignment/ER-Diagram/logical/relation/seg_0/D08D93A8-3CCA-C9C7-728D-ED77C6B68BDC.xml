@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Stock Products FK" directorySegmentName="seg_0" id="D08D93A8-3CCA-C9C7-728D-ED77C6B68BDC">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 13:47:48 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<sourcePk>A36225E3-0FCE-FD58-3A60-349C022C7325</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2C0BC529-138C-439F-FF65-3C3FA0373CFB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>767497E4-0005-76C4-A115-F8ADD7674060</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

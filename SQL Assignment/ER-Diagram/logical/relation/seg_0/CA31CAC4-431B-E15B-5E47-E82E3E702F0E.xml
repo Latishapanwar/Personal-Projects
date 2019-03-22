@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Vehicle_Maintenance_at_Depot" directorySegmentName="seg_0" id="CA31CAC4-431B-E15B-5E47-E82E3E702F0E">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-07 08:36:31 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<sourcePk>50A1EDA3-5889-9045-9967-35D8A3B671C9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>49BCD412-F579-A705-8837-CF660DBE1234</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4F2DA134-3ACB-5D02-9B05-ED70C9BF60E4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

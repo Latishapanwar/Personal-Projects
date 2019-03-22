@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="767497E4-0005-76C4-A115-F8ADD7674060" name="Stock">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 13:03:26 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Number of items" id="695F0E13-FFAB-442C-C44B-4705339A9179">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 13:06:48 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Depot Depot Code" id="37FA5452-E9C9-7881-1929-52E70F58C33A">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 13:42:12 UTC</createdTime>
+<generatorID>1214495B-A80F-C91A-B382-52A348B91BC0</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<referedAttribute>E9D81EA0-6FB8-D607-F488-66715D36AB67</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Products Product Code" id="B12CDD49-D625-10FE-6823-6F21A65DA46F">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 13:47:48 UTC</createdTime>
+<generatorID>D08D93A8-3CCA-C9C7-728D-ED77C6B68BDC</generatorID>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="true"/>
+</engineerTo>
+<referedAttribute>157E0182-7CF9-9973-053B-5CD24BD2B26A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7C3D6C66-C764-107C-AABF-9AC04B5A7211" name="Stock PK">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-05 13:04:16 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7B5AE578-82AE-E10D-B7B4-B141EDCA50BA" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>37FA5452-E9C9-7881-1929-52E70F58C33A</attributeRef>
+<attributeRef>B12CDD49-D625-10FE-6823-6F21A65DA46F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

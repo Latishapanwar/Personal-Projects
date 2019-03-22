@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="9B0D2537-20DF-966C-0E29-5A3A7BAA2D00">
+<createdBy>Latisha Panwar</createdBy>
+<createdTime>2017-12-03 11:13:12 UTC</createdTime>
+<ownerDesignName>ER-Diagram</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
